@@ -7,48 +7,49 @@
     <meta name="description" content="Portifolo site for someome">
     <meta name="keyword" content="Web developer , web designer , html ,css , html5 , css3">
     <meta name="generator" content="vs-code">
-    <link rel="icon" href="Images/favicon.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="Images/logo.png">
+    <!--plugsin-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
    <!--ICONS-->
    <link rel="stylesheet" type="text/css" href="css/icofont.min.css">
-   <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.min.css">
     <title>Bezel</title>
 </head>
 <body>
     <div class="container-fluid all">
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><img src="images/logo-light.png" alt="Bezel-Logo" class="img-fluid"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#team">TEAM</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#work">WORK</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#prices">PRICES</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                        </ul>
-                    </div>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo-light.png" alt="Bezel-Logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#team">TEAM</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#work">WORK</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#prices">PRICES</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </section>  
+            </div>
+        </nav>
         <header id="home">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -57,36 +58,28 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="Images/bg-image-29.jpg" alt="First slide">
+                    <img class="d-block w-100" src="https://i.ibb.co/gSPDp5q/bg-image-29.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Welcome to bezel</h3>
-                        <p>hello this site is Bezel</p>
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Welcome to bezel</h3>
+                        <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.2s">hello this site is Bezel</p>
                     </div>
                   </div>
-                  <div class="d-flex align-items-center">
-                    <div class="carousel-item ">
-                        <img class="d-block w-100" src="Images/bg-image-28.jpg" alt="Second slide">
-                        <div class="carousel-caption d-md-block">
-                            <h3>Welcome to second slider</h3>
-                            <p>slide number 2</p>
-                        </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i.ibb.co/ydZc4HF/bg-image-28.jpg" alt="Second slide">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Welcome to bezel</h3>
+                        <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.2s">hello this site is Bezel</p>
                     </div>
                   </div>
-                  
                 </div>
-                <div class="slide-btn">
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                </div>
-                <div class="slide-btn">
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                </div>
-              
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
         </header>
         <!--END OF HEADER-->
@@ -126,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="images/bg-image-30.jpg" alt="">
+                        <img class="img-fluid" src="https://i.ibb.co/YDmXTSR/bg-image-30.jpg" alt="">
                     </div>  
                 </div>
             </div>
@@ -142,8 +135,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 py-2">
-                        <div class="team-img ">
-                            <img src="images/team-1.jpg" alt="team">
+                        <div class="team-img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                            <img src="https://i.ibb.co/9Nbbm2L/team-1.jpg alt="team">
                             <div class="team-overlay">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -161,8 +154,8 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-12 py-2">
-                        <div class="team-img ">
-                            <img src="images/team-2.jpg" alt="team">
+                        <div class="team-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                            <img src="https://i.ibb.co/Bg3QcXr/team-2.jpg" alt="team">
                             <div class="team-overlay">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -180,8 +173,8 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-12 py-2">
-                        <div class="team-img ">
-                            <img src="images/team-3.jpg" alt="team">
+                        <div class="team-img wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                            <img src="https://i.ibb.co/VL6bywx/team-3.jpg" alt="team">
                             <div class="team-overlay">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -199,8 +192,8 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-12 py-2">
-                        <div class="team-img ">
-                            <img src="images/team-4.jpg" alt="team">
+                        <div class="team-img wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                            <img src="https://i.ibb.co/dpwHcBY/team-4.jpg" alt="team">
                             <div class="team-overlay">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -228,49 +221,49 @@
                 <div class="container">
                     <div class="row mb-5 text-center">
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-light-bulb"></i>
                                 <p class="mt-3">Stunning Design</p>
                             </div>
                         </div>
     
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-sand-clock"></i>
                                 <p class="mt-3">Time Saver</p>
                             </div>
                         </div>
     
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-ruler-compass-alt"></i>
                                 <p class="mt-3">Clean Code</p>
                             </div>
                         </div>
     
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-compass-alt"></i>
                                 <p class="mt-3">Customizable</p>
                             </div>
                         </div>
     
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-responsive"></i>
                                 <p class="mt-3">Perfect Layout</p>
                             </div>
                         </div>
     
                         <div class="col-lg-2 col-md-4 col-sm-6 py-2">
-                            <div class="service">
+                            <div class="service wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <i class="icofont-bullseye"></i>
                                 <p class="mt-3">Retina Ready</p>
                             </div>
                         </div>
                     </div>
                     <div class="row services-content">
-                        <div class="col-md-6  col-sm-12">
+                        <div class="col-md-6  col-sm-12 wow fadeInLeftBig" data-wow-duration="0.8s" data-wow-delay="0.8s">
                             <h1>What We Do</h1>
                             <p> 
                                 Lorem ipsum dolor sit amet, 
@@ -283,7 +276,7 @@
                             </p>
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <div>
+                            <div class="wow fadeInRightBig" data-wow-duration="0.8s" data-wow-delay="0.8s">
                                 <ul class="list-unstyled mt-3">
                                     <li class="py-1"><i class="icofont-check-circled mr-3 "></i>Research</li>
                                     <li class="py-1"><i class="icofont-check-circled mr-3 "></i>Opportunity Analysis</li>
@@ -294,7 +287,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <div>
+                            <div class="wow fadeInRightBig" data-wow-duration="0.8s" data-wow-delay="0.8s">
                                 <ul class="list-unstyled mt-3">
                                     <li class="py-1"><i class="icofont-check-circled mr-3  "></i>Logo & Branding</li>
                                     <li class="py-1"><i class="icofont-check-circled mr-3  "></i>Style guides</li>
@@ -328,12 +321,11 @@
                             <li><a href="#">Packaging</a></li>
                             <li><a href="#">UI/UX</a></li>   
                         </ul>
-                    </div>
-
+                    </div>               
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2 ">
-                        <div class="work-img">
-                            <img src="images/portfolio-1.jpg" alt="work">
+                        <div class="my-2 wow fadeInLeft work-img" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <img src=" https://i.ibb.co/S0c5MT3/portfolio-1.jpg" alt="work">
                             <div class="work-overlay text-center ">
                                 <h3>Mux Cards</h3>
                                 <p>Branding, UI/UX</p>
@@ -342,8 +334,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                        <div class="work-img">
-                            <img src="images/portfolio-2.jpg" alt="work">
+                        <div class="my-2 wow fadeInDown work-img" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <img src=https://i.ibb.co/V9xJSSD/portfolio-2.jpg" alt="work">
                             <div class="work-overlay text-center">
                                 <h3>Perkse Coffee</h3>
                                 <p>Product Design, Packaging</p>
@@ -352,8 +344,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                        <div class="work-img">
-                            <img src="images/portfolio-3.jpg" alt="work">
+                        <div class="my-2 wow fadeInRight work-img" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <img src=https://i.ibb.co/bLKskXH/portfolio-3.jpg" alt="work">
                             <div class="work-overlay text-center">
                                 <h3>Petit Natural</h3>
                                 <p>Branding, Packaging</p>
@@ -362,8 +354,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                        <div class="work-img">
-                            <img src="images/portfolio-4.jpg" alt="work">
+                        <div class="my-2 wow fadeInLeft work-img" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <img src="https://i.ibb.co/jvmbzgC/portfolio-4.jpg" alt="work">
                             <div class="work-overlay text-center">
                                 <h3>Float Bubbles</h3>
                                 <p>UI/UX, Product Design</p>
@@ -372,8 +364,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                        <div class="work-img">
-                            <img src="images/portfolio-5.jpg" alt="work">
+                        <div class="my-2 wow fadeInUp work-img" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <img src="https://i.ibb.co/cT145LX/portfolio-5.jpg" alt="work">
                             <div class="work-overlay text-center">
                                 <h3>Apple Watch Mockup</h3>
                                 <p>Branding, Packaging</p>
@@ -382,8 +374,8 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                        <div class="work-img">
-                            <img src="images/portfolio-6.jpg" alt="work">
+                        <div class="my-2 wow fadeInRight work-img" data-wow-duration="0.8s" data-wow-delay="1s">
+                            <img src="https://i.ibb.co/hCQrDP5/portfolio-6.jpg" alt="work">
                             <div class="work-overlay text-center">
                                 <h3>Kraftig Navy</h3>
                                 <p>Product Design, Packaging</p>
@@ -540,6 +532,8 @@
             </div>
         </section>
         <!--END OF SECTION   (7)-->
+
+        
         <!--START OF SECTION CLIENTS (9)-->
         <section class="clients">
             <div class="container">
@@ -548,34 +542,34 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-1.png" alt="clients"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInDownBig" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-2.png" alt="clients"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-3.png" alt="clients"></a>
                         </div>
                     </div>   
                     
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-4.png" alt="clients"></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-5.png" alt="clients"></a>
                         </div>
                     </div>
                     
                     <div class="col-lg-4 col-sm-6">
-                        <div class="clients-img">
+                        <div class="clients-img wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <a href="#"><img src="Images/client-6.png" alt="clients"></a>
                         </div>
                     </div>
@@ -611,18 +605,12 @@
                 </div>
             </div>
         </section>
-        <h1 id="does"></h1>
-        <form action="" class="form-group">
-            <input type="text" id="back" class="form-control">
-            <button type="submit" class="btn btn-danger"></button>
-        </form>
-   
         <!--END OF SECTION  GET IN TOUCH (10)-->
     </div>   
            <!--START OF FOOTER-->
            <footer>
                 <div class="container-fluid">
-                    <div class="row no-gutters">
+                    <div class="row justify-content-center">
                         <div class="col-lg-3 col-md-6">
                             <div>
                                 <div class="img-fluid">
@@ -685,8 +673,12 @@
                 </div>
             </footer>
             <!--END OF FOOTER-->
-    <!--START OF SCRIPT-->
-    <script src="js/all.index.js"></script>
-    <!--END OF SCRIPT-->
+        <!--start of scripts-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+        <script src="js/index.js"></script>
+        <!--end of scripts-->
 </body>
 </html>
