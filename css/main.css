@@ -33,7 +33,7 @@
     margin: auto;
     -webkit-transform: rotateZ(45deg);
             transform: rotateZ(45deg);
-            z-index: 999999;
+    z-index: 999999;
   }
   
   .sk-folding-cube .sk-cube {
