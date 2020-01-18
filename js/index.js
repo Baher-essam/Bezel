@@ -6,6 +6,5 @@ $(document).ready(function(){
         $("html").css("overflow" , "auto");
     })
   })
-
 //wow.js fire function
 new WOW().init();
